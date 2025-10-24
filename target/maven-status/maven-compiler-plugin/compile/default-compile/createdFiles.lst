@@ -1,0 +1,4 @@
+com\idem\web\automation\LoginPage.class
+com\idem\web\automation\AmazonSignInPage.class
+com\idem\web\automation\App.class
+com\idem\web\automation\AmazonHomePage.class

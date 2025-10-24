@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Amazon]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test on Chrome(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.idem.web.automation.TestCase3_loginToAmazonSearchProducts">
+        <methods>
+          <include name="withcredential"/>
+          <include name="launchBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.idem.web.automation.TestCase3_loginToAmazonSearchProducts -->
+      <class name="com.idem.web.automation.TestCase2_loginToAmazonandLogout">
+        <methods>
+          <include name="withcredential"/>
+          <include name="quit"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.idem.web.automation.TestCase2_loginToAmazonandLogout -->
+      <class name="com.idem.web.automation.TestCase1_loginToAmazon">
+        <methods>
+          <include name="withcredential"/>
+          <include name="launchBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.idem.web.automation.TestCase1_loginToAmazon -->
+    </classes>
+  </test> <!-- Test on Chrome(failed) -->
+  <test thread-count="5" name="Test on Firefox(failed)">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.idem.web.automation.TestCase3_loginToAmazonSearchProducts">
+        <methods>
+          <include name="withcredential"/>
+          <include name="quit"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.idem.web.automation.TestCase3_loginToAmazonSearchProducts -->
+      <class name="com.idem.web.automation.TestCase2_loginToAmazonandLogout">
+        <methods>
+          <include name="withcredential"/>
+          <include name="quit"/>
+          <include name="launchBrowser"/>
+        </methods>
+      </class> <!-- com.idem.web.automation.TestCase2_loginToAmazonandLogout -->
+      <class name="com.idem.web.automation.TestCase1_loginToAmazon">
+        <methods>
+          <include name="withcredential"/>
+          <include name="launchBrowser"/>
+          <include name="quit"/>
+        </methods>
+      </class> <!-- com.idem.web.automation.TestCase1_loginToAmazon -->
+    </classes>
+  </test> <!-- Test on Firefox(failed) -->
+</suite> <!-- Failed suite [Amazon] -->

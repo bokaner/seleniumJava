@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Chrome Browser launched Successfully]]>
+    </line>
+    <line>
+      <![CDATA[User try to click on Logout->Hovover on Account and List]]>
+    </line>
+    <line>
+      <![CDATA[User should logged out from  the application successfully]]>
+    </line>
+    <line>
+      <![CDATA[Test  Case  is Pass- Listeners Logic  is started]]>
+    </line>
+    <line>
+      <![CDATA[✅ Test Passed: withcredential]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is comppleted]]>
+    </line>
+    <line>
+      <![CDATA[browser closed successfully]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2025-10-24T14:10:49 IST" name="Integration Suite" finished-at="2025-10-24T14:11:53 IST" duration-ms="64086">
+    <groups>
+    </groups>
+    <test started-at="2025-10-24T14:10:49 IST" name="Test" finished-at="2025-10-24T14:11:53 IST" duration-ms="64086">
+      <class name="com.idem.web.automation.TestCase2_loginToAmazonandLogout">
+        <test-method is-config="true" signature="launchBrowser(java.lang.String)[pri:0, instance:com.idem.web.automation.TestCase2_loginToAmazonandLogout@62150f9e]" started-at="2025-10-24T14:10:49 IST" name="launchBrowser" finished-at="2025-10-24T14:11:17 IST" duration-ms="27299" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Chrome Browser launched Successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method signature="withcredential()[pri:0, instance:com.idem.web.automation.TestCase2_loginToAmazonandLogout@62150f9e]" started-at="2025-10-24T14:11:17 IST" name="withcredential" description="Login to Amazon with valid credentials" finished-at="2025-10-24T14:11:49 IST" duration-ms="32628" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[User try to click on Logout->Hovover on Account and List]]>
+            </line>
+            <line>
+              <![CDATA[User should logged out from  the application successfully]]>
+            </line>
+            <line>
+              <![CDATA[Test  Case  is Pass- Listeners Logic  is started]]>
+            </line>
+            <line>
+              <![CDATA[✅ Test Passed: withcredential]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is comppleted]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- withcredential -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:com.idem.web.automation.TestCase2_loginToAmazonandLogout@62150f9e]" started-at="2025-10-24T14:11:49 IST" name="quit" finished-at="2025-10-24T14:11:53 IST" duration-ms="3974" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[browser closed successfully]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- com.idem.web.automation.TestCase2_loginToAmazonandLogout -->
+    </test> <!-- Test -->
+  </suite> <!-- Integration Suite -->
+</testng-results>
