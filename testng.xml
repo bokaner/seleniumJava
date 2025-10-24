@@ -9,12 +9,11 @@
 		<classes>
 		<class
 				name="com.idem.web.automation.TestCase2_loginToAmazonandLogout" />
-		<!-- 	<class name="com.idem.web.automation.TestCase1_loginToAmazon" />
+			<class name="com.idem.web.automation.TestCase1_loginToAmazon" />
 			
 			<class
 				name="com.idem.web.automation.TestCase3_loginToAmazonSearchProducts" />
 
--->
 			<!--     <class
 			name="com.idem.web.automation.TestCase3_loginToAmazonSearchProducts"/>
  -->
